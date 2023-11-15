@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    column-gap: 2%;
+    row-gap: 3%;
+}
+
+.personaje{
+    border-radius: 8px;
+    height: 110%;
+    background-color: #202328;
+}
+
+.personaje img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.personaje .btn1{
+    width: 40%;
+    border: none;
+    height: 8%;
+    background-color: #49F187;
+    border-radius: 8px;
+    margin-left: 6%;
+    margin-top: 12%;
+    color: white;
+    font-size: 16px;
+}
+.personaje .btn2{
+    width: 40%;
+    border: none;
+    height: 8%;
+    background-color: #E770B5;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 12%;
+    color: white;
+    font-size: 16px;
+}
+
+.name p{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.texto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 18px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.origin{
+    color: white;
+    font-weight: bold;
+    margin-top: 8%;
+    text-align: center;
+}
